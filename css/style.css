@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ab8;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    width: 20%;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 18px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    /*    border-radius: 7px/24px;*/
+}
+
+
+nav a:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.actual {
+    background-color: crimson;
+}
+
+@media(max-width:800px) {
+    nav a {
+        width: 50%;
+        font-size: 22px;
+
+    }
+}
+
+@media(max-width:500px) {
+    nav a {
+        width: 100%;
+    }
+}
+
+
+article {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 0 20px
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
+img.logo {
+    float: left;
+    margin: 0px 10px 50px 0;
+    width: 30%;
+
+}
+
+article p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+}
+
+iframe {
+    margin: 0 10% 0px 10%;
+    padding-top: 25px;
+    border-top: 2px solid crimson;
+    width: 80%;
+}
+
+footer {
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a.kontakt {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+ul {
+    list-style: square;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 0 0 30px;
+
+}
+
+.adres {
+    margin: 0 0 0 130px;
+    padding: 0 0 0 230px;
+}
+
+.email {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+/*
+.email:hover {
+    animation:
+}
+*/
+
+a.stopka {
+    color: white;
+    text-decoration: none;
+}
+
+a.stopka:hover {
+    color: blue;
+}
